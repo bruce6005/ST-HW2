@@ -1,5 +1,9 @@
 from Calc import Calculator
 
+def test_add():
+    calc = Calculator()
+    result = calc.add(5, 2)
+    assert result == 7
 def test_subtract():
     calc = Calculator()
     result = calc.subtract(5, 2)
